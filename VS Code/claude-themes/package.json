@@ -1,0 +1,21 @@
+{
+  "name": "claude-themes",
+  "displayName": "Claude Themes",
+  "description": "A theme for VS Code that styles it so the app looks similar to the Claude app.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.140.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Claude Themes for VS Code",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Claude Themes for VS Code-color-theme.json"
+      }
+    ]
+  }
+}
