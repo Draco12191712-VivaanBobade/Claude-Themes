@@ -7,3 +7,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 - Initial release
+- Added Claude Dark and Claude Light, covering the full workbench, syntax colors, semantic highlighting and terminal colors
