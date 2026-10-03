@@ -3,18 +3,40 @@
   "displayName": "Claude Themes",
   "description": "A theme for VS Code that styles it so the app looks similar to the Claude app.",
   "version": "0.0.1",
+  "publisher": "draco12191712",
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Draco12191712-VivaanBobade/Claude-Themes"
+  },
   "engines": {
-    "vscode": "^1.140.0"
+    "vscode": "^1.75.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "claude",
+    "dark",
+    "light",
+    "orange",
+    "theme"
+  ],
+  "galleryBanner": {
+    "color": "#151515",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "Claude Themes for VS Code",
+        "label": "Claude Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Claude Themes for VS Code-color-theme.json"
+        "path": "./themes/Claude Dark-color-theme.json"
+      },
+      {
+        "label": "Claude Light",
+        "uiTheme": "vs",
+        "path": "./themes/Claude Light-color-theme.json"
       }
     ]
   }
